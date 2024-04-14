@@ -36,14 +36,11 @@ body {
     color: #434455;
 }
 
-
-
-.container-header {
-    max-width: ;
-    padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ;
+.header-container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .container-hero {
