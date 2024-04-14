@@ -32,4 +32,56 @@ img {
 
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #FFF;
+    color: #434455;
+}
+
+
+
+.container-header {
+    max-width: ;
+    padding-left: ;
+    padding-right: ;
+    margin-left: ;
+    margin-right: ;
+}
+
+.container-hero {
+    max-width: ;
+    padding-left: ;
+    padding-right: ;
+    margin-left: ;
+    margin-right: ;
+}
+
+.container-advantages {
+    max-width: ;
+    padding-left: ;
+    padding-right: ;
+    margin-left: ;
+    margin-right: ;
+}
+
+.container-our-team {
+    max-width: ;
+    padding-left: ;
+    padding-right: ;
+    margin-left: ;
+    margin-right: ;
+}
+
+.container-our-portfolio {
+    max-width: ;
+    padding-left: ;
+    padding-right: ;
+    margin-left: ;
+    margin-right: ;
+}
+
+.container-footer {
+    max-width: ;
+    padding-left: ;
+    padding-right: ;
+    margin-left: ;
+    margin-right: ;
 }
