@@ -37,13 +37,23 @@ body {
 }
 
 .header-container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1210px;
+    padding-left: 115px;
+    padding-right: 115px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header-page,
+.logotype-link {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
 }
 
 .container-hero {
