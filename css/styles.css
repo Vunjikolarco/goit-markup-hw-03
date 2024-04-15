@@ -36,62 +36,97 @@ body {
     color: #434455;
 }
 
-.header-container {
-    max-width: 1210px;
-    padding-left: 115px;
-    padding-right: 115px;
+.container {
+    width: 1128px;
+    padding-left: 156px;
+    padding-right: 156px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.header-page,
-.logotype-link {
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+    padding-left: 156px;
+    width: 44px;
+    height: 21px;
+}
+
+.header-text {
+    color: #2E2F42;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+/*.header-item:not(:last-child) {
+    margin-right: 40px;
+}*/
+
+.header-item-link {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: #2E2F42;
+}
+
+.header-contact-list {
+    display: flex;
+    gap: 40px;
+    padding-right: 156px;
+}
+
+/*.header-contact-item:not(:last-child) {
+    margin-right: 40px;
+}*/    
+
+.header-container-item-link {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 24px; 
+    color: #434455;
 }
 
 .container-hero {
-    max-width: ;
-    padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ;
+   
 }
 
 .container-advantages {
-    max-width: ;
-    padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ;
+   
 }
 
 .container-our-team {
-    max-width: ;
-    padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ;
+   
 }
 
 .container-our-portfolio {
-    max-width: ;
-    padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ;
+    
 }
 
 .container-footer {
-    max-width: ;
-    padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ;
+   
 }
