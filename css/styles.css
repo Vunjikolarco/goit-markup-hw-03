@@ -111,6 +111,49 @@ body {
     color: #434455;
 }
 
+.hero-page {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+}
+
+.hero-container {
+    display: block;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.box {
+    width: 496px;
+    height: 120px;
+}
+
+.hero-title {
+    font-family: "Roboto";
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07px;
+    letter-spacing: 1.12p;
+    color: #FFFFFF;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-left: 472px;
+    padding-right: 472px;
+}
+
+.hero-button-link {
+    display: block;
+    padding: 16px 32px;
+}
+
+.box,
+.hero-button-link {
+    padding-left: 636px;
+    padding-top: ;
+    padding-bottom: ;
+}
+
+
 .container-hero {
    
 }
