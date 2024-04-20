@@ -40,6 +40,11 @@ body {
     color: #434455;
 }
 
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .container {
     width: 1158px;
     margin-left: auto;
@@ -63,6 +68,7 @@ address {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .header-logo {
@@ -85,12 +91,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    gap: 40px;
 }
-
-/*.header-item:not(:last-child) {
-    margin-right: 40px;
-}*/
 
 .header-item:hover,
 .header-item:focus {
@@ -118,12 +119,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    gap: 40px;
 }
-
-/*.header-contact-item:not(:last-child) {
-    margin-right: 40px;
-}*/    
 
 .header-container-item-link {
     font-family: "Roboto", sans-serif;
@@ -178,11 +174,11 @@ address {
 }
 
 .advantages-list {
-    gap: 24px;
+    display: flex;
 }
 
 .advantages-item {
-
+    
 }
 
 .titel {
