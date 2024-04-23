@@ -60,10 +60,6 @@ address {
     font-style: normal;
 }
 
-.header {
-    border-bottom: 1px solid #E7E9FC;
-}
-
 .header-container {
     width: 1158px;
     margin-left: auto;
@@ -139,6 +135,7 @@ address {
 
 .hero-page {
     background-color: #2E2F42;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .hero-container {
