@@ -69,6 +69,7 @@ address {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -91,6 +92,9 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .header-item:hover,
@@ -119,6 +123,9 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .header-container-item-link {
@@ -138,6 +145,7 @@ address {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .hero-title {
@@ -156,6 +164,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    border-radius: 4px;
 }
 
 .hero-button-link {
@@ -174,11 +183,11 @@ address {
 }
 
 .advantages-list {
-    display: flex;
+    display: inline-flex;
 }
 
 .advantages-item {
-    
+    gap: 8px;
 }
 
 .titel {
@@ -207,6 +216,7 @@ address {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .our-team-titel {
@@ -219,7 +229,8 @@ address {
 }
 
 .our-team-list {
-    width: calc((264px-3*24px)/4);
+    display: flex;
+    gap: 34px;
 }
 
 .our-team-item {
@@ -252,10 +263,11 @@ address {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .portfolio-titel {
-font-family: "Robotto", sans-serif;
+    font-family: "Robotto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -264,7 +276,8 @@ font-family: "Robotto", sans-serif;
 }
 
 .portfolio-list {
-    width: calc((360px-5*24px)/6);
+    display: flex;
+    gap: 39px;
 }
 
 .portfolio-item {
@@ -311,7 +324,6 @@ font-family: "Robotto", sans-serif;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     color: #4D5AE5;
 }
 
