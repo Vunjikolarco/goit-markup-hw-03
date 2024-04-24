@@ -75,6 +75,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .header-text {
@@ -91,6 +92,8 @@ address {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-item:hover,
@@ -122,6 +125,8 @@ address {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-container-item-link {
@@ -143,6 +148,8 @@ address {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -152,6 +159,7 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
 }
 
 .hero-button-link {
@@ -161,7 +169,10 @@ address {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .hero-button-link {
