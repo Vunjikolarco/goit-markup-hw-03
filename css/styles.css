@@ -289,7 +289,7 @@ address {
     text-align: center;
 }
 
-.portfolio-titel {
+.portfolio-title {
     font-family: "Robotto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -338,13 +338,13 @@ address {
 
 .footer-page {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-container {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 100px 0;
 }
 
 .footer-logo {
@@ -354,6 +354,8 @@ address {
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: #4D5AE5;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-logo-text {
@@ -367,4 +369,5 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    word-wrap: break-word;
 }
