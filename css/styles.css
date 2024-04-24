@@ -76,6 +76,8 @@ address {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     margin-right: 76px;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
 }
 
 .header-text {
@@ -140,7 +142,7 @@ address {
 
 .hero-page {
     background-color: #2E2F42;
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .hero-container {
