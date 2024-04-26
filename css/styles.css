@@ -66,6 +66,17 @@ address {
 
 }
 
+.container-header-container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -86,6 +97,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #2E2F42;
+    margin-right: 76px;
 }
 
 .header-list {
@@ -95,10 +107,11 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    display: block;
-    padding: 40px 0;
+    display: flex;
     width: 100%;
     position: relative;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .header-item:hover,
@@ -121,6 +134,10 @@ address {
     color: #404BBF;
 }
 
+.adr {
+    display: flex;
+}
+
 .header-contact-list {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -128,8 +145,14 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: block;
+    display: flex;
     width: 100%;
+    gap: 40px;
+    padding: 24px 0;
+    padding-left: 332px;
+}
+.header-contact-item {
+    
 }
 
 .header-contact-item-link {
