@@ -203,10 +203,6 @@ address {
     background-color: #404BBF;
 }
 
-.visually-hidden {
-    margin-bottom: 8px;
-}
-
 .advantages-list {
     display: flex;
     gap: 24px;
@@ -334,6 +330,7 @@ address {
 }
 
 .footer-page {
+    padding: 100px 0;
     background-color: #2E2F42;
 }
 
