@@ -131,7 +131,7 @@ address {
     padding-bottom: 24px;
 }
 
-.header-container-item-link {
+.header-contact-item-link {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -145,10 +145,11 @@ address {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.hero-container {
+.container {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding: 188px 0;
     padding-top: 188px;
     padding-bottom: 188px;
 }
