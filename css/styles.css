@@ -60,12 +60,10 @@ address {
     font-style: normal;
 }
 
-.header-container {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
+.header-page {
+    background-color: #FFFFFF;
+    border-bottom: 1px #E7E9FC solid;
+
 }
 
 .header-logo {
@@ -75,12 +73,18 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4D5AE5;
-    margin-right: 76px;
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+    display: flex;
+    width: 100%;
 }
 
 .header-text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #2E2F42;
 }
 
@@ -91,11 +95,10 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    display: block;
+    padding: 40px 0;
+    width: 100%;
+    position: relative;
 }
 
 .header-item:hover,
@@ -110,6 +113,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    width: 100%;
 }
 
 .header-contact-list:hover,
@@ -124,11 +128,8 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    display: block;
+    width: 100%;
 }
 
 .header-contact-item-link {
@@ -143,15 +144,6 @@ address {
 .hero-page {
     background-color: #2E2F42;
     border-bottom: 1px solid #e7e9fc;
-}
-
-.container {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 188px 0;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -192,19 +184,13 @@ address {
     margin-bottom: 8px;
 }
 
-.advantages-container {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .advantages-list {
     display: flex;
     gap: 24px;
 }
 
 .advantages-item {
-    width calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .titel {
@@ -227,13 +213,6 @@ address {
 
 .our-team-page {
     background-color: #F4F4FD;
-}
-
-.our-team-container {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }
 
 .our-team-titel {
@@ -283,13 +262,6 @@ address {
     background-color: #FFFFFF;
 }
 
-.portfolio-container {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
 .portfolio-title {
     font-family: "Robotto", sans-serif;
     font-weight: 700;
@@ -323,12 +295,6 @@ address {
     display: inline-flex;
 }
 
-.portfolio-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
 .titel {
     font-family: "Robotto", sans-serif;
     font-weight: 500;
@@ -349,14 +315,6 @@ address {
 
 .footer-page {
     background-color: #2E2F42;
-}
-
-.footer-container {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .footer-logo {
