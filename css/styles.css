@@ -347,12 +347,12 @@ address {
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: #4D5AE5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-text {
     color: #F4F4FD;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-text {
