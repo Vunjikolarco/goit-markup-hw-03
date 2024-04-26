@@ -149,7 +149,6 @@ address {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 188px 0;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -162,6 +161,7 @@ address {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     max-width: 496px;
+    text-align: center;
 }
 
 .hero-button-link {
@@ -304,7 +304,6 @@ address {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    gap: 39px;
 }
 
 .portfolio-item-row-one {
@@ -351,11 +350,12 @@ address {
     background-color: #2E2F42;
 }
 
-.footer-container-logo {
+.footer-container {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -371,12 +371,6 @@ address {
     color: #F4F4FD;
     display: inline-block;
     margin-bottom: 16px;
-}
-
-.footer-container-text {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .footer-text {
