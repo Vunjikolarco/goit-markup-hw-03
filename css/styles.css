@@ -63,6 +63,7 @@ address {
 .header-page {
     padding: 0 15px;
     background-color: #FFFFFF;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav {
