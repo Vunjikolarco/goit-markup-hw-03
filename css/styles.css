@@ -65,7 +65,7 @@ address {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.nav {
+.container-header-container {
     width: 1158px;
     display: flex;
     padding: 0 15px;
