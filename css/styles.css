@@ -153,8 +153,10 @@ address {
     padding: 24px 0;
     padding-left: 332px;
 }
+
 .header-contact-item {
-    
+    display: flex;
+    gap: 40px;
 }
 
 .header-contact-item-link {
