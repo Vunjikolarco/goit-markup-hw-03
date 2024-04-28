@@ -72,6 +72,11 @@ address {
     align-items: center;
 }
 
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -130,8 +135,9 @@ address {
     color: #404BBF;
 }
 
-.adr {
+.adr-header {
     display: flex;
+    gap: 40px;
 }
 
 .header-contact-list {
