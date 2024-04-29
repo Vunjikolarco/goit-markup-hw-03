@@ -129,6 +129,7 @@ address {
     color: #2E2F42;
     width: 100%;
     display: block;
+    padding: 24px 0;
 }
 
 .header-contact-list:hover,
@@ -147,7 +148,6 @@ address {
     display: flex;
     width: 100%;
     gap: 40px;
-    padding: 24px 0;
     padding-left: 332px;
 }
 
