@@ -152,7 +152,7 @@ address {
 }
 
 .header-contact-item {
-    display: flex;
+    display: block;
     gap: 40px;
 }
 
