@@ -107,7 +107,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    display: block;
+    display: flex;
     align-items: center;
     width: 100%;
     position: relative;
@@ -128,6 +128,7 @@ address {
     letter-spacing: 0.02em;
     color: #2E2F42;
     width: 100%;
+    display: block;
 }
 
 .header-contact-list:hover,
