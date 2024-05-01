@@ -327,6 +327,7 @@ address {
     justify-content: center;
     align-items: flex-start;
     display: inline-flex;
+    flex-shrink: 0;
 }
 
 .portfolio-item-row-two {
@@ -335,6 +336,7 @@ address {
     justify-content: center;
     align-items: flex-start;
     display: inline-flex;
+    flex-shrink: 0;
 }
 
 .container-portfolio {
